@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-config
+  namespace: my-app
+data:
+  DATABASE_URL: postgres://user:password@db:5432/mydatabase
